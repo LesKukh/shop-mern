@@ -1,8 +1,11 @@
 import express from 'express'
 import products from './data/products'
 import dotenv from 'dotenv.js'
+import connectDB from "./config/db.js"
 
 dotenv.config()
+
+connectDB()
 
 const app = express();
 
