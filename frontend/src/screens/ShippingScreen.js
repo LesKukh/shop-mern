@@ -60,7 +60,7 @@ const ShippingScreen = ({ history }) => {
           ></Form.Control>
         </Form.Group>
 
-        {/* <Form.Group controlId='country'>
+        <Form.Group controlId='country'>
           <Form.Label>Country</Form.Label>
           <Form.Control
             type='text'
@@ -69,11 +69,10 @@ const ShippingScreen = ({ history }) => {
             required
             onChange={(e) => setCountry(e.target.value)}
           ></Form.Control>
-        </Form.Group> */}
-
-        {/* <Button type='submit' variant='primary'>
+        </Form.Group> 
+        <Button type='submit' variant='primary'>
           Continue
-        </Button> */}
+        </Button>
       </Form>
     </FormContainer>
   )
